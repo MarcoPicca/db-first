@@ -1,0 +1,15 @@
+Nome della tabella: auto-usate;
+
+id - intero - MEDIUMINT - PRIMARY_KEY UNIQUE AUTO_INCREMENT - NOT NULL
+modello - stringa - VARCHAR(25) - NOT NULL
+azienda_produttrice - stringa - VARCHAR(20) - NOT NULL
+genere - stringa - VARCHAR(30) - NULL
+descrizione_specifiche - stringa - TEXT - NULL
+anno_immatricolazione - YEAR - NULL
+cilindrata - stringa - VARCHAR(20) - NULL
+numero_marce - intero - TINYINT - NULL
+disponibile - booleano - BOOLEAN (TINYINT) - NOT NULL - DEFAULT(TRUE)
+colore_scocca - stringa - VARCHAR(50) - NOT NULL - DEFAULT(0)
+costo - float - FLOAT(9, 2) - NULL
+limite_km_h - float - FLOAT(5, 2) - VARCHAR(5) - NULL
+danni_eventuali - stringa - VARCHAR(100)
